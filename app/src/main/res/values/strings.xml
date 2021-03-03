@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">FragmentosTransaction</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="primer_fragment">Primer fragment</string>
+    <string name="segundo_fragment">Segundo fragment</string>
+    <string name="volver">Volver</string>
+    <string name="siguiente">Siguiente</string>
+</resources>
