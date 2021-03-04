@@ -24,7 +24,7 @@ class SecondFragment : Fragment() {
 
         view.findViewById<Button>(R.id.frag2_bVolver).setOnClickListener {
             val fragmentCargar=(activity as MainActivity).supportFragmentManager.findFragmentByTag("first")
-            fragmentCargar?.let{(activity as MainActivity).supportFragmentManager.beginTransaction().add(R.id.main_flFragments,it).commit()}
+            fragmentCargar?.let{(activity as MainActivity).supportFragmentManager.beginTransaction().replace(R.id.main_flFragments,it).commit()}
         }
     }
 }
